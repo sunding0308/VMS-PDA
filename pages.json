@@ -1,0 +1,61 @@
+{
+	"pages": [
+		{
+			"path": "pages/login/login",
+			"style" : {
+				"navigationBarTitleText": "登录",
+				"app-plus": {
+					"titleNView": false,
+					"autoBackButton":false
+				}
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "主页面"
+			}
+		},
+		{
+			"path": "pages/operate/carEnter",
+			"style": {
+				"navigationBarTitleText": "确认入厂"
+			}
+		},
+		{
+			"path": "pages/operate/carOut",
+			"style": {
+				"navigationBarTitleText": "确认出厂"
+			}
+		},
+		{
+			"path": "pages/operate/callIndex",
+			"style": {
+				"navigationBarTitleText": "呼叫主页"
+			}
+		},
+		{
+			"path": "pages/operate/callEnter",
+			"style": {
+				"navigationBarTitleText": "呼叫入厂"
+			}
+		},
+		{
+			"path": "pages/operate/outList",
+			"style": {
+				"navigationBarTitleText": "出厂名单"
+			}
+		}
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#0081ff",
+		"backgroundColor": "#FFFFFF",
+		"navigationStyle": "custom"
+	},
+	// 全局引入colorui导航栏组件
+	"usingComponents": {
+		"cu-custom": "/colorui/components/cu-custom"
+	}
+}
